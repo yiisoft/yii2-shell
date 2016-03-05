@@ -1,7 +1,10 @@
 {
     "name": "yiisoft/yii2-shell",
-    "description": "Interactive shell implementatioon for Yii2 framework",
-    "keywords": ["yii2", "shell"],
+    "description": "The interactive shell extension for Yii framework",
+    "keywords": [
+        "yii2",
+        "shell"
+    ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
@@ -11,11 +14,23 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2-shell"
     },
+    "authors": [
+        {
+            "name": "Daniel Gomez Pan",
+            "email": "pana_1990@hotmail.com"
+        }
+    ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "phpunit/phpunit": "~4.4"
+        "phpunit/phpunit": "~4.4",
+        "psy/psysh": "0.7.*"
     },
     "autoload": {
-        "psr-4": { "yii\\shell\\": "" }
+        "psr-4": {
+            "yii\\shell\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "yii\\shell\\Bootstrap"
     }
 }

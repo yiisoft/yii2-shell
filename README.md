@@ -1,3 +1,5 @@
-# Interactive shell extension for Yii2 framework
+Interactive Shell Extension for Yii 2
+=====================================
 
-### Work in progress
+Work in progress
+----------------
