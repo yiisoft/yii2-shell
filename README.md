@@ -1,7 +1,7 @@
 Interactive Shell Extension for Yii 2
 =====================================
 
-This extension provides interactive shell for [Yii framework 2.0](http://www.yiiframework.com).
+This extension provides an interactive shell for [Yii framework 2.0](http://www.yiiframework.com) based on [psysh](http://psysh.org/).
 
 For license information check the [LICENSE](LICENSE.md)-file.
 
