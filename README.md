@@ -35,4 +35,18 @@ To run shell, you can execute the following command in console:
 ./yii shell
 ```
 
+After installation, you will be able to run the interactive shell via command line:
+
+```
+# Change path to your application's root directory
+cd path/to/myapp
+
+# Start the interactive shell
+./yii shell
+```
+
+You can access the application object using `$this` or `Yii::$app`. Additionally you have access to all your and your dependencies' classes.
+
+See [psysh's website](http://psysh.org/#features) for a list of available features.
+
 
