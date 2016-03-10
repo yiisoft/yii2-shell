@@ -30,6 +30,9 @@
         }
     },
     "extra": {
-        "bootstrap": "yii\\shell\\Bootstrap"
+        "bootstrap": "yii\\shell\\Bootstrap",
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
     }
 }
