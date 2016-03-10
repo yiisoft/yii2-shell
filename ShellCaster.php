@@ -11,7 +11,7 @@ use Symfony\Component\VarDumper\Caster\Caster;
 use yii\db\ActiveRecord;
 
 /**
- * Class ShellCaster
+ * ShellCaster provides wrapper for casters of psysh
  *
  * @author Daniel Gomez Pan <pana_1990@hotmail.com>
  * @since 2.0

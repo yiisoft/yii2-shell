@@ -12,7 +12,8 @@ use Psy\Shell;
 use Psy\Configuration;
 
 /**
- * Runs interactive shell
+ * Runs interactive shell. That is especially useful when developing an application and you want to try
+ * some method of your code.
  *
  * @author Daniel Gomez Pan <pana_1990@hotmail.com>
  * @since 2.0
@@ -34,6 +35,9 @@ class ShellController extends Controller
         ]);
     }
 
+    /**
+     * Runs interactive shell
+     */
     public function actionIndex()
     {
         $config = new Configuration;
