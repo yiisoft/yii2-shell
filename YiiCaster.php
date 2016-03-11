@@ -11,12 +11,12 @@ use Symfony\Component\VarDumper\Caster\Caster;
 use yii\db\ActiveRecord;
 
 /**
- * ShellCaster provides wrapper for casters of psysh
+ * YiiCaster provides wrapper for casters of psysh
  *
  * @author Daniel Gomez Pan <pana_1990@hotmail.com>
  * @since 2.0
  */
-class ShellCaster
+class YiiCaster
 {
     /**
      * Get an array representing the properties of a model.

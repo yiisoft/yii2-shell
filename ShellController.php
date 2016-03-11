@@ -54,7 +54,7 @@ class ShellController extends Controller
     protected function getCasters()
     {
         return [
-            'yii\db\ActiveRecord' => 'yii\console\ShellCaster::castModel',
+            'yii\db\ActiveRecord' => 'yii\console\YiiCaster::castModel',
         ];
     }
 }
