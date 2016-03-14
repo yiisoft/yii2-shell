@@ -7,13 +7,15 @@
 
 namespace yii\shell;
 
+use yii\base\BootstrapInterface;
+
 /**
  * Class Bootstrap
  *
- * @author Daniel Gomez Pan <pana_1990@hotmail.com>
+ * @author Sascha Vincent Kurowski <svkurowski@gmail.com>
  * @since 2.0
  */
-class Bootstrap implements \yii\base\BootstrapInterface
+class Bootstrap implements BootstrapInterface
 {
     public function bootstrap($app)
     {
