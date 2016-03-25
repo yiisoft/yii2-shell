@@ -5,6 +5,9 @@ This extension provides an interactive shell for [Yii framework 2.0](http://www.
 
 For license information check the [LICENSE](LICENSE.md)-file.
 
+[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-shell/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-shell)
+[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-shell/downloads.png)](https://packagist.org/packages/yiisoft/yii2-shell)
+
 
 Installation
 ------------
@@ -28,12 +31,6 @@ to the `require` section of your composer.json.
 
 Usage
 -----
-
-To run shell, you can execute the following command in console:
-
-```
-./yii shell
-```
 
 After installation, you will be able to run the interactive shell via command line:
 
