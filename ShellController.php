@@ -45,6 +45,7 @@ class ShellController extends Controller
             $this->getCasters()
         );
         $shell = new Shell($config);
+        $shell->setIncludes($this->include);
         $shell->run();
     }
 
