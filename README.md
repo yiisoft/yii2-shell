@@ -42,7 +42,7 @@ cd path/to/myapp
 ./yii shell
 ```
 
-You can access the application object using `$this` or `Yii::$app`. Additionally you have access to all your and your dependencies' classes.
+You can access the application object using `Yii::$app`. Additionally you have access to all your and your dependencies' classes.
 
 See [psysh's website](http://psysh.org/#features) for a list of available features.
 

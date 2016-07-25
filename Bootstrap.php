@@ -17,6 +17,9 @@ use yii\base\BootstrapInterface;
  */
 class Bootstrap implements BootstrapInterface
 {
+    /**
+     * @inheritdoc
+     */
     public function bootstrap($app)
     {
         if ($app instanceof \yii\console\Application) {
