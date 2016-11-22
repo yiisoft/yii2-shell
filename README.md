@@ -44,4 +44,9 @@ You can access the application object using `Yii::$app`. Additionally you have a
 
 See [psysh's website](http://psysh.org/#features) for a list of available features.
 
+Screenshot
+----------
 
+The following screenshot shows a usage example:
+
+![Usage example of Yii2 shell](screenshot.png)
