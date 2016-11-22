@@ -16,7 +16,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run
 
-    composer.phar require --prefer-dist yiisoft/yii2-shell
+    composer require yiisoft/yii2-shell
 
 or add
 
