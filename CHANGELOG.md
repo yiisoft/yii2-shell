@@ -4,7 +4,7 @@ Yii Framework 2 Shell extension Change Log
 2.0.1 under development
 -----------------------
 
-- Enh #10: Updated psy version (kyle-mccarthy)
+- Enh #10, #13: Updated psy version (kyle-mccarthy, samdark)
 
 
 2.0.0 November 22, 2016
