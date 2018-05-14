@@ -25,8 +25,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0",
-        "psy/psysh": "~0.8.1",
+        "yiisoft/yii2": "2.1.x-dev",
+        "psy/psysh": "~0.9.3",
         "symfony/var-dumper": "~2.7|~3.0|~4.0"
     },
     "autoload": {
