@@ -1,6 +1,11 @@
 Yii Framework 2 Shell extension Change Log
 ==========================================
 
+3.0.0 under development
+-----------------------
+- Bump Yii to version 2.1
+
+
 2.0.2 under development
 -----------------------
 
