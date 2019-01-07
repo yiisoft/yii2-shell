@@ -1,8 +1,8 @@
 Yii Framework 2 Shell extension Change Log
 ==========================================
 
-2.0.2 under development
------------------------
+2.0.2 January 07, 2019
+----------------------
 
 - Enh #19: Bump psy/psysh to ~0.9.3 (ricpelo)
 
