@@ -4,7 +4,7 @@ Yii Framework 2 Shell extension Change Log
 2.0.3 under development
 -----------------------
 
-- no changes in this release.
+- Enh #26: Add compatibility with `symfony/var-dumper` 5.x (samdark) 
 
 
 2.0.2 January 07, 2019
