@@ -1,8 +1,8 @@
 Yii Framework 2 Shell extension Change Log
 ==========================================
 
-2.0.5 under development
------------------------
+2.0.5 September 04, 2022
+------------------------
 
 - Enh #28: Allow psy/psysh ^0.11.0 additionally (wa1kb0y)
 
