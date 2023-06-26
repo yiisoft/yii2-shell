@@ -53,7 +53,7 @@ See [psysh's website](http://psysh.org/#features) for a list of available featur
 Configuration
 -------------
 
-You can configure the PsySH shell by setting options via the `shellConfig` variable in the controller. I.e. add this to your console application configuration:
+You can configure the PsySH shell by setting options via the `shellConfig` variable in the controller, i.e. add this to your console application configuration:
 
 
 ```
