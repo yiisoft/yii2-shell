@@ -27,6 +27,7 @@ class ShellController extends Controller
 
     /**
      * @var array PsySH shell configuration array
+     * @since 2.0.6
      */
     public $shellConfig = [];
 
