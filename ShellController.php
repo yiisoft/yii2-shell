@@ -25,6 +25,12 @@ class ShellController extends Controller
      */
     public $include = [];
 
+    /**
+     * @var array PsySH shell configuration array
+     * @since 2.0.6
+     */
+    public $shellConfig = [];
+
 
     /**
      * @inheritdoc
@@ -42,6 +48,7 @@ class ShellController extends Controller
     public function actionIndex()
     {
         $config = new Configuration;
+        $config->loadConfig($this->shellConfig);
         $config->getPresenter()->addCasters(
             $this->getCasters()
         );

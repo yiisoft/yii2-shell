@@ -8,6 +8,7 @@
 namespace yii\shell;
 
 use yii\base\BootstrapInterface;
+use yii\helpers\ArrayHelper;
 
 /**
  * Class Bootstrap
@@ -23,7 +24,12 @@ class Bootstrap implements BootstrapInterface
     public function bootstrap($app)
     {
         if ($app instanceof \yii\console\Application) {
-            $app->controllerMap['shell'] = 'yii\shell\ShellController';
+            $app->controllerMap['shell'] = ArrayHelper::merge([
+                'class' => 'yii\shell\ShellController',
+                'shellConfig' => [
+                    'updateCheck' => 'never',
+                ],
+            ], isset($app->controllerMap['shell']) ? $app->controllerMap['shell'] : []);
         }
     }
 }
